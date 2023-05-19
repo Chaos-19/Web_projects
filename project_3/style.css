@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background: url(/project_5/images/contact-bg.jpg) 0 0 no-repeat;
+  background: url(./images/contact-bg.jpg) 0 0 no-repeat;
   background-size: 100%;
 
 }
@@ -148,7 +148,7 @@ body {
 
 .section-two,
 .section-four {
-  background: #fff url(/project_5/images/cta-bg.jpg) 0 0 no-repeat;
+  background: #fff url(./images/cta-bg.jpg) 0 0 no-repeat;
   background-size: 100% 100%;
   background-position: cover;
   padding: 8rem;
@@ -267,7 +267,7 @@ body {
 }
 
 .section-four {
-  background: url(/project_5/images/schedule-bg.jpg) 0 0 no-repeat;
+  background: url(./images/schedule-bg.jpg) 0 0 no-repeat;
   padding: 8rem 5rem;
 }
 
@@ -356,7 +356,7 @@ table td {
 }
 .contact-form{
   flex: 1.2;
-  background: url(/project_5/images/contact-bg.jpg) 0 0 no-repeat;
+  background: url(./images/contact-bg.jpg) 0 0 no-repeat;
   padding: 5rem 0.5rem ;
 }
 [type="button"],
