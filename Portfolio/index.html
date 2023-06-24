@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="sidebar-overlay"></div>
   <header class="container">
     <div class="wrapper">
       <div class="nav_wrapper">
@@ -29,6 +30,16 @@
           </div>
           <img class="bar" src="./img/Union.png" alt="">
         </div>
+
+        <nav class="hidden">
+          <button class="drawBtn">❌</button>
+              <ul>
+                <li><a href="#wellcom">Wellcome</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
       </div>
       <div id="wellcom">
         <div class="content-wrapper">
@@ -52,7 +63,9 @@
   <div id="portfolio" class="portfolio">
     <div class="portfolio-wrapper">
       <div class="flex-container">
-        <div class="card-image"><img src="./img/Snapshootdsktp3.png" alt="">
+        <div class="card-image">
+          <button class="closemodel">❌</button>
+          <img src="./img/Snapshootdsktp3.png" alt="">
         </div>
         <div class="card-content">
           <h2>Tonic</h2>
@@ -63,12 +76,14 @@
             <li><a href="">CSS</a></li>
             <li><a href="">JAVASCRIPT</a></li>
           </ul>
-          <button>See Project</button>
+          <button class="btnModel">See Project</button>
         </div>
       </div>
 
       <div class="flex-container">
-        <div class="card-image one"><img src="./img/Snapshootmbl2.png" alt=""></div>
+        <div class="card-image">
+          <button class="closemodel">❌</button>
+          <img src="./img/Snapshootmbl2.png" alt=""></div>
         <div class="card-content">
           <h2>Multi-Post Stories</h2>
           <p>CANOPY <img src="./img/Counter.png" alt=""> Back End Dev <img src="./img/Counter.png" alt=""> 2015 </p>
@@ -79,12 +94,14 @@
             <li><a href="">CSS</a></li>
             <li><a href="">JAVASCRIPT</a></li>
           </ul>
-          <button>See Project</button>
+          <button class="btnModel">See Project</button>
         </div>
       </div>
 
       <div class="flex-container">
-        <div class="card-image"><img src="./img/Snapshootmbl3.png" alt=""></div>
+        <div class="card-image">
+          <button class="closemodel">❌</button>
+          <img src="./img/Snapshootmbl3.png" alt=""></div>
         <div class="card-content">
           <h2>Tonic</h2>
           <p>CANOPY <img src="./img/Counter.png" alt=""> Back End Dev <img src="./img/Counter.png" alt=""> 2015 </p>
@@ -95,13 +112,15 @@
             <li><a href="">CSS</a></li>
             <li><a href="">JAVASCRIPT</a></li>
           </ul>
-          <button>See Project</button>
+          <button class="btnModel">See Project</button>
         </div>
       </div>
 
 
       <div class="flex-container">
-        <div class="card-image one"><img src="./img/Snapshootmbl4.png" alt=""></div>
+        <div class="card-image">
+          <button class="closemodel">❌</button>
+          <img src="./img/Snapshootmbl4.png" alt=""></div>
         <div class="card-content">
           <h2>Multi-Post Stories</h2>
           <p>CANOPY <img src="./img/Counter.png" alt=""> Back End Dev <img src="./img/Counter.png" alt=""> 2015 </p>
@@ -112,7 +131,7 @@
             <li><a href="">CSS</a></li>
             <li><a href="">JAVASCRIPT</a></li>
           </ul>
-          <button>See Project</button>
+          <button class="btnModel">See Project</button>
         </div>
       </div>
     </div>
@@ -179,6 +198,6 @@
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
-
 </html>
