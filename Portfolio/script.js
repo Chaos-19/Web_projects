@@ -9,7 +9,6 @@ const drawBtn = document.querySelector('.drawBtn').addEventListener('click', (e)
 draw.addEventListener('click', () => {
   slider.classList.toggle('show');
   document.body.style.overflowY = "hidden"
-  console.log("Clicked");
 })
 
 const list = document.querySelectorAll('.hidden a');
@@ -32,7 +31,7 @@ const modelImg = document.getElementsByClassName('flex-container');
 
 const btn = document.querySelector('.btnF');
 
-const modelOpenBtn = document.getElementsByClassName('btnModel');
+const modelOpenBtn = document.getElementsByClassName('btnF');
 
 
 overlay.addEventListener('click', closeModelBtn)
@@ -68,4 +67,4 @@ for (let i = 0; i < closeModelBtn.length; i++) {
     modelImg[i].querySelector('.closemodel').style.display ="none";
     document.body.style.overflowY = 'auto';
   });
-}
+                          }
